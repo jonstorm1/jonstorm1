@@ -1,0 +1,464 @@
+<header
+      class="ap--header "
+      [class]="'ap--header  ' + (mainmenuopen ? 'mainmenuopen' : '')"
+      i-amphtml-binding
+    >
+      <div class="-nt">
+        <a class="-nn" href="/">
+          <svg class="-nr">
+            <use
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xlink:href="#logo"
+            />
+          </svg>
+          <span class="-ns">AMP</span>
+        </a>
+        <nav class="-no">
+          <div class="-nu">
+            <button class="-na -tz ">
+              About
+              <div class="ap-a-ico -nf">
+                <svg>
+                  <use
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="#angle-down-solid"
+                  />
+                </svg>
+              </div>
+            </button>
+            <ul class="-nl">
+              <li class="-nd">
+                <a class="-nv websites" href="/about/websites/">
+                  <div class="-nb websites">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#amp-websites"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="-nm ap-o-header-flyout-primary-item-link-info-websites"
+                  >
+                    <div class="-nh">AMP Websites</div>
+                    <div class="-np">Create flawless web experiences</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a class="-nv stories" href="/about/stories/">
+                  <div class="-nb stories">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#amp-stories"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm -ng">
+                    <div class="-nh">Web Stories</div>
+                    <div class="-np">Snackable Stories for everyone</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a class="-nv ads" href="/about/ads/">
+                  <div class="-nb ads">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#amp-ads"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="-nm ap-o-header-flyout-primary-item-link-info-ads"
+                  >
+                    <div class="-nh">AMP Ads</div>
+                    <div class="-np">Super fast ads on the web</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a class="-nv email" href="/about/email/">
+                  <div class="-nb email">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#amp-email"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm -ny">
+                    <div class="-nh">AMP Email</div>
+                    <div class="-np">Next gen email</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/about/page-experience/"
+                  >Page Experience</a
+                >
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/about/how-amp-works/"
+                  >How AMP works</a
+                >
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/about/mission-and-vision/"
+                  >Vision & Mission</a
+                >
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/about/use-cases/">Use cases</a>
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/success-stories/"
+                  >Success Stories</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="-nu">
+            <button class="-na -tz active">
+              Documentation
+              <div class="ap-a-ico -nf">
+                <svg>
+                  <use
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="#angle-down-solid"
+                  />
+                </svg>
+              </div>
+            </button>
+            <ul class="-nl">
+              <li class="-nc">
+                <a
+                  class="-nh secondary"
+                  href="https://amp.dev/documentation/?format=websites"
+                  >Get Started</a
+                >
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/guides-and-tutorials/?format=websites"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#guides-documents"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Guides & Tutorials</div>
+                    <div class="-np">Get started with AMP</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/components/?format=websites"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#components-flyout"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Components</div>
+                    <div class="-np">The complete AMP library</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/examples/?format=websites"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#examples-flyout"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Examples</div>
+                    <div class="-np">Hands-on introduction to AMP</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/courses/?format=websites&level=beginner"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#learn"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Courses</div>
+                    <div class="-np">Learn AMP with free courses</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/templates/?format=websites"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#template"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Templates</div>
+                    <div class="-np">Ready to use</div>
+                  </div>
+                </a>
+              </li>
+              <li class="-nd">
+                <a
+                  class="-nv "
+                  href="https://amp.dev/documentation/tools/?format=websites"
+                >
+                  <div class="-nb ">
+                    <svg>
+                      <use
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xlink:href="#wrench"
+                      />
+                    </svg>
+                  </div>
+                  <div class="-nm">
+                    <div class="-nh">Tools</div>
+                    <div class="-np">Begin building</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="-nu">
+            <button class="-na -tz ">
+              Community
+              <div class="ap-a-ico -nf">
+                <svg>
+                  <use
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="#angle-down-solid"
+                  />
+                </svg>
+              </div>
+            </button>
+            <ul class="-nl">
+              <li class="-nc">
+                <a
+                  class="-nh secondary"
+                  href="https://amp.dev/documentation/guides-and-tutorials/contribute/?format=websites"
+                  >Contribute</a
+                >
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/community/roadmap/">Roadmap</a>
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/community/governance/"
+                  >Governance</a
+                >
+              </li>
+              <li class="-nc">
+                <a
+                  class="-nh secondary"
+                  href="/community/working-groups/access-subscriptions/"
+                  >Working Groups</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="-nu">
+            <button class="-na -tz ">
+              Events
+              <div class="ap-a-ico -nf">
+                <svg>
+                  <use
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="#angle-down-solid"
+                  />
+                </svg>
+              </div>
+            </button>
+            <ul class="-nl">
+              <li class="-nc">
+                <a class="-nh secondary" href="/events/amp-fest-2020/"
+                  >AMP Fest 2020</a
+                >
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/events/amp-roadshow/"
+                  >AMP Roadshow</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="-nu">
+            <a class="-na -tz" href="https://blog.amp.dev">Blog</a>
+          </div>
+          <div class="-nu">
+            <button class="-na -tz ">
+              Support
+              <div class="ap-a-ico -nf">
+                <svg>
+                  <use
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="#angle-down-solid"
+                  />
+                </svg>
+              </div>
+            </button>
+            <ul class="-nl">
+              <li class="-nc">
+                <a class="-nh secondary" href="/support/">Help</a>
+              </li>
+              <li class="-nc">
+                <a class="-nh secondary" href="/support/faq/">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div
+          id="searchTriggerOpen"
+          class="-sa"
+          on="tap:searchLightbox"
+          role="button"
+          aria-label="Search"
+          tabindex="0"
+        >
+          <div class="ap-a-ico -sl">
+            <svg>
+              <use
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xlink:href="#magnifier"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="-sr">
+          <span class="-si" aria-label="Select a language" tabindex="-1">
+            <span class="-tz">EN</span>
+            <div class="ap-a-ico -so">
+              <svg>
+                <use
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xlink:href="#angle-down-solid"
+                />
+              </svg>
+            </div>
+          </span>
+          <input class="-ss" type="checkbox" name="language-selector" />
+          <div class="-su" role="list">
+            <a
+              class="-tz"
+              href="https://amp.dev/de/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Deutsch</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/fr/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Français</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/ar/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >العربية</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/es/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Español</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/it/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Italiano</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/id/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Indonesia</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/ja/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >日本語</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/ko/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >한국어</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/pt_br/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Português</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/ru/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Русский</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/tr/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Türkçe</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/zh_cn/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >中文</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/pl/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Polski</a
+            >
+            <a
+              class="-tz"
+              href="https://amp.dev/vi/documentation/components/amp-ad/?format=websites"
+              role="listitem"
+              >Tiếng việt</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
